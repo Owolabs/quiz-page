@@ -52,6 +52,7 @@ const scoreValue = document.getElementById('score-value');
 const resultFeedBack =document.getElementById('result');
 let score = 0;
 let currentQuestionIndex = 0;
+let userAnswers = new Array(questions.length).fill(null);
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
