@@ -1,0 +1,32 @@
+
+.option-value{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 75%;
+    border: 2px solid #2e2b2b;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:all ease-in-out 0.3s;
+}
+
+.btn:hover{
+    background-color: #3f41a5;
+    color: white;
+}
+.btn:hover:not([disabled]){
+    background-color:#3f41a5;
+    color: #fff;
+}
+.btn:disabled{
+    cursor:no-drop!important;
+}
+.correct{
+    background: limegreen;
+}
+.incorrect{
+    background:red;
+}
